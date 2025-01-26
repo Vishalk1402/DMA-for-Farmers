@@ -1,0 +1,41 @@
+.product-listing {
+    background-color: white;
+    display: grid;
+    border:1px #ccc solid;
+    grid-template-columns: repeat(5, 1fr); /* Default to 5 columns for PC */
+    gap: 20px; /* Space between products */
+    padding: 20px;
+}
+
+.product-card {
+    background-color: blanchedalmond;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.buy-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #218838;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .product-listing {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
