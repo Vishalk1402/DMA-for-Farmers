@@ -95,10 +95,10 @@ const Contact = () => {
           <p><strong>Phone:</strong> 866838****</p>
           <h2>Follow Us</h2>
           <div className="social-icons">
-            <a href="#" className="social-icon">🌐</a>
-            <a href="#" className="social-icon">📘</a>
-            <a href="#" className="social-icon">🐦</a>
-            <a href="#" className="social-icon">📸</a>
+            <button className="social-icon">🌐</button>
+            <button className="social-icon">📘</button>
+            <button className="social-icon">🐦</button>
+            <button className="social-icon">📸</button>
           </div>
         </div>
       </div>
